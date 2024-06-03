@@ -6,14 +6,14 @@ This runs exactly as I'd expect, the data is all gathered on separate pages and 
 ---
 | Functional Requirements | Complete? |
 | --- | :---: |
-| Multi page form with client side routing and navigation (next button) | yes/no |
-| Data stored in Redux when navigating from page to page | yes/no |
-| User is notified when trying to leave a blank score | yes/no |
-| Review Component displays scores and comments from current redux state | yes/no |
-| Submit button sends data to the server via Axios | yes/no |
-| Confirmation Page displays after data is POSTed to the server | yes/no |
-| Button on Confirmation Page starts a new survey | yes/no |
-| Views are broken down into components | yes/no |
+| Multi page form with client side routing and navigation (next button) | yes|
+| Data stored in Redux when navigating from page to page | yes |
+| User is notified when trying to leave a blank score | no |
+| Review Component displays scores and comments from current redux state | yes|
+| Submit button sends data to the server via Axios | yes |
+| Confirmation Page displays after data is POSTed to the server | yes |
+| Button on Confirmation Page starts a new survey | yes |
+| Views are broken down into components | yes |
 
 ---
 ### Notes:
@@ -23,17 +23,17 @@ Notes on the above Functional Requirements.
 ---
 | General Items | Complete? |
 | --- | :---: |
-| More than 15 git commits | yes/no |
-| Commits are descriptive of the changes made or feature added | yes/no |
-| Readme file updated | yes/no |
-| Appropriate amount of code comments | yes/no |
-| Code is consistently formatted | yes/no |
-| Server code organized with router & module files | yes/no |
-| Dispatch action to clear redux state on new survey | yes/no |
+| More than 15 git commits | no |
+| Commits are descriptive of the changes made or feature added | yes |
+| Readme file updated | no |
+| Appropriate amount of code comments | yes |
+| Code is consistently formatted | yes |
+| Server code organized with router & module files | yes |
+| Dispatch action to clear redux state on new survey | yes |
 
 ---
 ### Notes:
 
-General notes on quality, comments, commits, suggestions, highlights, etc.
+Well done! You followed the directions and made the app work as expected. Your server side routes look good and your store/reducer is set up cleverly to use just one reducer and you clear the feedback as well. The data is stored properly in state and then passed to the server at the end.
 
 ```
